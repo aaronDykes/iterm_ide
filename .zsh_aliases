@@ -32,7 +32,3 @@ function mkt()
 	mk test$1
 }
 
-function debug_c()
-{
-	lldb $1
-}
