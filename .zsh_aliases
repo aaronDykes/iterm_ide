@@ -1,0 +1,38 @@
+alias ll='ls -alGFh'
+alias l='ls -aGFh'
+alias v="nvim"
+alias c="clear"
+alias shut="sudo shutdown -h now"
+alias re="sudo reboot now"
+
+alias mace="make clean"
+alias mk="make"
+
+alias gi="git init"
+alias gs="git status"
+alias glog="git log"
+
+alias gc="git checkout"
+alias gcb="git checkout -B"
+alias gb="git branch"
+alias gm="git merge"
+
+alias gpul="git pull"
+alias gf="git fetch"
+alias gp="git push"
+alias gcom="git commit -m"
+
+alias rect="npx create-react-app"
+alias npst="npm start"
+
+
+function mkt()
+{
+	mk
+	mk test$1
+}
+
+function debug_c()
+{
+	lldb $1
+}

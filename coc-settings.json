@@ -1,0 +1,15 @@
+{
+  "clangd.enabled": true,
+  "clangd.path": "/usr/bin/clangd",
+  "colors.enable": false,
+  "semanticTokens.enable": true,
+  "coc.preferences.bracketEnterImprove": true,
+  "javascript.format.semicolons": "insert",
+  "javascript.format.enable": true,
+  "coc.preferences.formatOnType": false,
+  "css.format.enable": true,
+  "javascript.format.placeOpenBraceOnNewLineForFunctions": true,
+  "json.enable": true,
+  "json.format.enable": true,
+  "prettier.trailingComma": "none"
+}
