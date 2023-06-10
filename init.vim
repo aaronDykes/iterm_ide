@@ -194,16 +194,6 @@ autocmd User CocGitStatusChange {command}
 " VIMSCRIPT -------------------------------------------------------------- {{{
 
 
-
-if term_program !=? 'Apple_Terminal'
-    set termguicolors
-else
-    if $TERM !=? 'xterm-256color'
-        set termguicolors
-    endif
-endif
-
-
 function! s:check_back_space() abort
   let col = col('.') - 1
   return !col || getline('.')[col - 1]  =~# '\s'
